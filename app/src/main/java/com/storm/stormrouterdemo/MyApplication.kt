@@ -39,6 +39,12 @@ class MyApplication : Application() {
     }
 
 
+    override fun onTerminate() {
+        super.onTerminate()
+        // 写在ondestory 会报错
+        ARouter.getInstance().destroy();
+    }
+
 
 
 }
