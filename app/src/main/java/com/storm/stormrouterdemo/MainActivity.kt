@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setUpListener() {
         mBinding.tvStart.setOnClickListener {
-            ARouter.getInstance().build("/storm/RouterDemoAct").navigation();
+            ARouter.getInstance().build("/storm/module_one/act").navigation();
         }
     }
 }
