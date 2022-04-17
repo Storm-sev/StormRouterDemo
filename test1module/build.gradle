@@ -37,7 +37,6 @@ android {
         main{
             if(!isNeedTest1Module.toBoolean()){
                 manifest.srcFile 'src/main/AndroidManifest.xml'
-
             }else{
                 manifest.srcFile 'src/main/module/AndroidManifest.xml'
             }
@@ -50,6 +49,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    resourcePrefix "one_"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

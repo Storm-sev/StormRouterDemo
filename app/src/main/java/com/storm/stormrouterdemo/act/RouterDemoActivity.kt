@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.alibaba.android.arouter.facade.annotation.Route
 import com.storm.stormrouterdemo.R
 
-@Route(path = "/storm/RouterDemoAct")
+@Route(path = "/yao/act")
 class RouterDemoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

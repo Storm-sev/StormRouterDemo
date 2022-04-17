@@ -1,0 +1,5 @@
+<resources>
+    <string name="two_storm_title">资源名定义_module_two</string>
+    <string name="two_storm">来自moduletwo</string>
+
+</resources>
